@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets"
+    "\\_data",
+    "\\_pages"
   ],
-  "SelectedNode": "\\assets",
+  "SelectedNode": "\\_data\\navigation.yml",
   "PreviewInSolutionExplorer": false
 }

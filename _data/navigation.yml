@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "CV"
-    url: /cv/
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Resume"
+    url: /resume/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

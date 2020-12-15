@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "default" , "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast" , "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcome to my website"
+title                    : "Anas Buhayh"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Anas Buhayh"
@@ -116,7 +116,7 @@ author:
       url: "https://github.com/AnasBuhayh"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/anas.gasha/"
+      # url: "https://www.instagram.com/anas.gasha/"
 
 # Site Footer
 footer:
@@ -271,7 +271,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
       layout: single
       author_profile: true
@@ -281,4 +281,10 @@ defaults:
       related: true
       show_date: true
       read_time: true
-      search: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
