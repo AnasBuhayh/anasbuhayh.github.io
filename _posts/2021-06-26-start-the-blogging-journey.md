@@ -1,5 +1,6 @@
 ---
 layout: post
+layout: single
 title:  "Welcome to my website!"
 ---
 
