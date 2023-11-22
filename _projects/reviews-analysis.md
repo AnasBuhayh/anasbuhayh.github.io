@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Archive
-description: Archiving System developed using Django framework
-img: assets/img/archives.jpg
-redirect: https://github.com/afituri/archive
+title: Product Reviews Analysis
+description: A toy project for analyzing product customer reviews through scrapping walmart reviews data
+img: assets/img/product-review.png
+redirect: https://github.com/AnasBuhayh/customer-reviews-analysis
 importance: 3
-category: work
+category: personal
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HNEC Centers
+title: Centers
 description: Voting centers directory developed using node.js framework
 img: assets/img/centers.jpg
 redirect: https://github.com/afituri/centers
