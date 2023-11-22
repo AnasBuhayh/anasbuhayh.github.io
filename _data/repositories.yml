@@ -3,10 +3,8 @@ github_users:
   - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - AnasBuhayh/mastodon-rec-sys
+  - AnasBuhayh/wecode-ui
+  - AnasBuhayh/customer-reviews-analysis
+  - AnasBuhayh/unplugging-twitter-analysis
+
