@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
+title: HNEC Centers
+description: Voting centers directory developed using node.js framework
+img: assets/img/centers.jpg
+redirect: https://github.com/afituri/centers
+importance: 3
 category: work
 ---
 

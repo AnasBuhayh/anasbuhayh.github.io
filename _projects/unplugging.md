@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Unplugging
+description: A study of how Twitter (X) users frame their breaks from social media.
+img: assets/img/unplugging.png
+redirect: https://github.com/AnasBuhayh/unplugging-twitter-analysis
 importance: 3
-category: work
+category: academic
 ---
 
 Every project has a beautiful feature showcase page.

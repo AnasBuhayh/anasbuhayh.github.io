@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: HNEC Archive
+description: Archiving System developed using Django framework
+img: assets/img/archives.jpg
+redirect: https://github.com/afituri/archive
+importance: 3
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

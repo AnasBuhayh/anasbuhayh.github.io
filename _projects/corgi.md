@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
+title: CORGI
+description: Community-Oriented Recommendation Governance and Infrastructure
+img: assets/img/corgi.jpg
+redirect: https://github.com/AnasBuhayh/rec-sys-final-project
+importance: 3
+category: academic
 ---
 
 Every project has a beautiful feature showcase page.
