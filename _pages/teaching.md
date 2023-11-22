@@ -7,6 +7,9 @@ nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# Teaching Experience
 
-Organize your courses by years, topics, or universities, however you like!
+### Computational Reasoning 2: Representations of Data (INFO 2201)
+- Teaching Assistant, with Prof. Jason Zeiz. CU Boulder. Fall 2023
+- Graduate Part-Time Instructorship. CU Boulder. Summer 2023
+- Teaching Assistant, with Prof. Jason Zeiz. CU Boulder. Fall & Spring 2022
