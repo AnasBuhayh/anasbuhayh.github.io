@@ -82,6 +82,7 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  height: 350px;
 
   img {
     width: 100%;
@@ -89,6 +90,7 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 1.5rem;
   }
 
   .card-item {
@@ -495,6 +497,8 @@ footer.sticky-bottom {
   }
 
   .card {
+    height: 350px;
+
     img {
       width: 100%;
       max-height: 160px;
