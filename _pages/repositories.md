@@ -4,6 +4,7 @@ permalink: /repositories/
 title: repositories
 nav: true
 nav_order: 3
+description: selected repositories
 ---
 
 {% if site.data.repositories.github_repos %}

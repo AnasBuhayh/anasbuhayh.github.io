@@ -6,6 +6,7 @@ nav: true
 nav_order: 2
 display_categories: [academic, personal, work]
 horizontal: false
+description: selected programming projects
 ---
 
 <!-- pages/projects.md -->
