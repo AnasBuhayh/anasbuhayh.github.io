@@ -1,10 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - AnasBuhayh
 
 github_repos:
   - AnasBuhayh/weCode-deprecated
-  - AnasBuhayh/mastodon-rec-sys
+  - AnasBuhayh/rec-sys-final-project
   - AnasBuhayh/customer-reviews-analysis
   - AnasBuhayh/unplugging-twitter-analysis
   - afituri/archive
