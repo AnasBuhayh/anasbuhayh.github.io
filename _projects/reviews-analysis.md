@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Product Reviews Analysis
-description: A toy project for analyzing product customer reviews through scrapping walmart reviews data
+description: Analysis of customer reviews through scrapping walmart reviews data
 img: assets/img/product-review.png
 redirect: https://github.com/AnasBuhayh/customer-reviews-analysis
 importance: 3
