@@ -3,6 +3,8 @@ github_users:
   - alshedivat
 
 github_repos:
+  - AnasBuhayh/weCode-deprecated
+  - AnasBuhayh/mastodon-rec-sys
   - AnasBuhayh/customer-reviews-analysis
   - AnasBuhayh/unplugging-twitter-analysis
   - afituri/archive

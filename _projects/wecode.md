@@ -1,11 +1,11 @@
 ---
 layout: page
 title: CORGI
-description: Community-Oriented Recommendation Governance and Infrastructure
-img: assets/img/corgi.jpg
-redirect: https://github.com/AnasBuhayh/mastodon-rec-sys
+description: website for wecode -- libyan programming community
+img: assets/img/wecode.png
+redirect: https://github.com/AnasBuhayh/weCode-deprecated
 importance: 3
-category: academic
+category: personal
 ---
 
 Every project has a beautiful feature showcase page.
