@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CORGI
+title: weCode
 description: Website for wecode -- libyan programming community
 img: assets/img/wecode.png
 redirect: https://github.com/AnasBuhayh/weCode-deprecated
