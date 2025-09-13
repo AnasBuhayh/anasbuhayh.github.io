@@ -1,0 +1,264 @@
+/* main.css – upgraded for portfolio aesthetics */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #fefefe;
+  --fg: #1a1a1a;
+  --muted: #666;
+  --border: #e5e7eb;
+  --accent: #2563eb;
+  --font-sans: 'Fira Code', Consolas, Menlo, Monaco, monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.75;
+  font-size: 15.5px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--border);
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.navbar {
+  padding: 1.2rem 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 0.3px;
+}
+
+#author-name {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+
+.sidebar {
+  width: 270px;
+  float: left;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.sidebar-photo {
+  width: 60%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 2px solid var(--border);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar-contact span,
+.sidebar-office span {
+  display: block;
+  margin: 0.4rem 0;
+}
+
+.sidebar-icons {
+  margin-top: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.icon-btn {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 1.1rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.icon-btn i {
+  margin-right: 6px;
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.8rem 0;
+}
+
+.side-link {
+  display: block;
+  padding: 0.3rem 0;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.side-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.side-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.side-news ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.side-news li {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.content {
+  margin-left: 290px;
+  padding-top: 2rem;
+}
+
+.content h2 {
+  margin-top: 2.2rem;
+  font-size: 1.3rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.25rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.content ul {
+  padding-left: 1.25rem;
+}
+
+.content li {
+  margin-bottom: 0.2rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 100%;
+  }
+  
+  .container {
+    padding: 0 1.5rem;
+  }
+  
+  .navbar {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .sidebar {
+    width: 100%;
+    float: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar-photo {
+    width: 40%;
+    max-width: 200px;
+  }
+  
+  .content {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  
+  .content h2 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .sidebar-contact {
+    text-align: center;
+  }
+  
+  .sidebar-icons {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .icon-btn {
+    display: inline-block;
+    margin: 0 0.5rem;
+    text-align: center;
+  }
+  
+  .side-nav {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .side-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .side-nav li {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .navbar {
+    font-size: 1.1rem;
+  }
+  
+  .sidebar-photo {
+    width: 50%;
+    max-width: 150px;
+  }
+  
+  .content h2 {
+    font-size: 1.1rem;
+  }
+  
+  .side-nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .icon-btn {
+    font-size: 1rem;
+  }
+}
