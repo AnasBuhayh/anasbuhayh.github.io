@@ -229,6 +229,10 @@ a:hover {
   .side-nav li {
     margin: 0;
   }
+
+  .side-news {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
